@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Processing Guarantees
-tagline: Processing in ksqlDB
-description: Learn about processing in ksqlDB
-keywords: ksqldb, processing
+tagline: Processing guarantees in ksqlDB
+description: Learn about at-least-once, exactly-once semantics in ksqlDB
+keywords: ksqldb, processing, eos, at-least-once, exactly-once
 ---
+
+ksqlDB supports *at-least-once* and *exactly-once* processing guarantees.
 
 At-least-once semantics
 -----------------------
